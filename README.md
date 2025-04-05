@@ -1,3 +1,5 @@
+Not affiliated with Fortnite.GG
+
 # Fortnite Island Lookup
 
 A web extension that lets you quickly look up Fortnite island codes on fortnite.gg.
@@ -30,22 +32,6 @@ _Coming soon_
 1. Download or clone this repository
 2. Open Chrome and navigate to `chrome://extensions/`
 3. Enable "Developer mode" using the toggle in the top-right corner
-4. Click "Load unpacked" and select the extension folder
-5. The extension is now installed and ready to use
-
-#### Firefox
-
-1. Download or clone this repository
-2. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`
-3. Click "Load Temporary Add-on..."
-4. Navigate to the extension folder and select the `manifest.json` file
-5. The extension is now installed temporarily (will be removed when Firefox is closed)
-
-#### Microsoft Edge
-
-1. Download or clone this repository
-2. Open Edge and navigate to `edge://extensions/`
-3. Enable "Developer mode" using the toggle on the left sidebar
 4. Click "Load unpacked" and select the extension folder
 5. The extension is now installed and ready to use
 
