@@ -14,9 +14,33 @@ chrome.contextMenus.onClicked.addListener((info, tab) => {
       const url = `https://fortnite.gg/island?code=${selectedText}`;
       chrome.tabs.create({ url: url });
     } else {
-      chrome.tabs.sendMessage(tab.id, {
-        action: "showNotification",
-        message: "Not an island code.",
+      chrome.tabs.get(tab.id, (tabInfo) => {
+        if (chrome.runtime.lastError) {
+          console.log("Tab error:", chrome.runtime.lastError.message);
+          return;
+        }
+
+        if (
+          tabInfo.url.startsWith("chrome://") ||
+          tabInfo.url.startsWith("chrome-extension://") ||
+          tabInfo.url.startsWith("devtools://")
+        ) {
+          console.log("Cannot send messages to this tab type:", tabInfo.url);
+          return;
+        }
+
+        chrome.tabs.sendMessage(
+          tab.id,
+          {
+            action: "showNotification",
+            message: "Not an island code.",
+          },
+          (response) => {
+            if (chrome.runtime.lastError) {
+              console.log("Message error:", chrome.runtime.lastError.message);
+            }
+          }
+        );
       });
     }
   }

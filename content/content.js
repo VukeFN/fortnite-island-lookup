@@ -13,6 +13,8 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         border-radius: 24px;
         z-index: 9999;
         font-family: Arial, sans-serif;
+        font-weight: bold;
+        letter-spacing: 0.5px;
       `;
 
     document.body.appendChild(notification);
