@@ -15,7 +15,7 @@ A web extension that lets you quickly look up Fortnite island codes on fortnite.
 
 ### Chrome Web Store
 
-https://chromewebstore.google.com/detail/nfmmhlnaenciadmlaifjmcldfklemieb?utm_source=item-share-cb
+[Install from Chrome Web Store](https://chromewebstore.google.com/detail/nfmmhlnaenciadmlaifjmcldfklemieb?utm_source=item-share-cb)
 
 ### Firefox Add-ons
 
