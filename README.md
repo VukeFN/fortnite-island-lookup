@@ -7,15 +7,15 @@ A web extension that lets you quickly look up Fortnite island codes on fortnite.
 ## Features
 
 - Right-click on any Fortnite island code to open it on fortnite.gg
+- Works on any webpage
 - Validates that the selected text is in the correct format (xxxx-xxxx-xxxx)
 - Shows a notification if the selected text is not a valid island code
-- Works on any webpage
 
 ## Installation
 
 ### Chrome Web Store
 
-_Coming soon_
+https://chromewebstore.google.com/detail/nfmmhlnaenciadmlaifjmcldfklemieb?utm_source=item-share-cb
 
 ### Firefox Add-ons
 
@@ -53,11 +53,14 @@ fortnite-island-lookup/
 ├── content/              # Content scripts
 │   └── content.js        # Handles notifications
 ├── assets/               # Static assets
-│   └── icons/            # Extension icons
+│   ├── discord.svg      # Discord icon
+│   ├── x.svg            # X (Twitter) icon
+│   └── icons/           # Extension icons
 │       ├── icon16.png
 │       ├── icon48.png
 │       └── icon128.png
-└── README.md             # This file
+├── .gitignore           # Git ignore file
+└── README.md            # This file
 ```
 
 ## Technical Details
