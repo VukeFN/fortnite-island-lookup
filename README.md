@@ -100,6 +100,6 @@ as permitted by applicable copyright law. For permissions or inquiries,
 please contact VukeFN at vukefnbusiness@gmail.com or through a private 
 message on [X at @vukefn](https://x.com/vukefn).
 
-## Credits
+## Credits & Contributions
 
 Created by VukeFN [<img src="assets\x.svg" alt="X icon" width="16" style="vertical-align: middle"/>](https://x.com/vukefn) [<img src="assets\discord.svg" alt="X icon" width="16" style="vertical-align: middle"/>](https://discord.com/users/611107142560382976)
